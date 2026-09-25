@@ -1,27 +1,28 @@
-# Laravel PHP Framework
+# Stellar Clicker Website
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+> [!WARNING]
+> Archived and no longer maintained; kept for reference. Written in 2016 for Laravel 5.2 and PHP 5.5, and bundles a beta version of Flarum. All of these are end-of-life, and the site (stellar.polymorphixgaming.com) is no longer online.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+## Overview
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+The website, blog, and forum for [Stellar Clicker](https://github.com/angiebrr/um-csci412-stellar-clicker), a clicker game my team made for CSCI 412 at the University of Montana in spring 2016.
 
-## Official Documentation
+**Tech:** PHP 5.5, Laravel 5.2, Sentinel, jQuery, LESS, Bootstrap, Gulp, Flarum (beta), MariaDB, Mailgun, CentOS 7
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+### What I built
 
-## Contributing
+- The Laravel app: routes, models, schema, seeders, Blade views, JavaScript, and LESS
+- Authentication with Sentinel
+- A developer blog where bloggers post in Markdown and readers can comment
+- A Flarum forum in `flarum/`, with plugins like image uploads and media embeds and a theme adjusted to match the main site
+- The CentOS 7 server it ran on, down to the virtual hosts for each subdomain
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+Matthew Dolan filled in some of the blog and user management controllers, and he tried out several self-hosted wikis before we settled on a Wikia page embedded in an iframe.
 
-## Security Vulnerabilities
+## Screenshots
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+![The home page, with download links and the developer blog](docs/images/home-page.jpg)
 
-## License
+![A blog post's comment thread](docs/images/blog-comments.jpg)
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+![The Flarum forum](docs/images/forum.jpg)
