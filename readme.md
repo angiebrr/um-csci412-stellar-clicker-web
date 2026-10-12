@@ -26,3 +26,30 @@ Matthew Dolan filled in some of the blog and user management controllers, and he
 ![A blog post's comment thread](docs/images/blog-comments.jpg)
 
 ![The Flarum forum](docs/images/forum.jpg)
+
+<details>
+<summary>More screenshots</summary>
+
+![The lower half of the home page, linking to the forum and wiki](docs/images/home-page-2.jpg)
+
+![A developer blog post](docs/images/blog-post.jpg)
+
+![A blog post with an embedded video](docs/images/blog-video-post.jpg)
+
+![The Markdown post editor](docs/images/post-editor.jpg)
+
+![Managing blog posts](docs/images/manage-posts.jpg)
+
+![Managing users (seeded test accounts)](docs/images/manage-users.jpg)
+
+![Editing a user's settings and roles](docs/images/edit-user.jpg)
+
+![The login and registration page](docs/images/login-register.jpg)
+
+![A forum category](docs/images/forum-category.jpg)
+
+![Flarum's extension settings](docs/images/forum-extensions.jpg)
+
+![The embedded Wikia page](docs/images/wiki.jpg)
+
+</details>
